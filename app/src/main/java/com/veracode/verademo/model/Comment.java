@@ -3,7 +3,7 @@ package com.veracode.verademo.model;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Comment {
+public class Comments {
 
 	private int id;
 	private String content;
