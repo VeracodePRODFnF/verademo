@@ -9,7 +9,6 @@ FROM mariadb:10.6.2
 # Configure MariaDB
 ENV MYSQL_RANDOM_ROOT_PASSWORD=true
 ENV MYSQL_DATABASE=blab
-
 # Copy DB schema for DB initialisation
 COPY db /docker-entrypoint-initdb.d
 
