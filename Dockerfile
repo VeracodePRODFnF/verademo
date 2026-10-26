@@ -4,7 +4,7 @@
 #
 #https://hub.docker.com/_/mariadb/
 # This is Ubuntu 20.04 LTS
-FROM mariadb:10.6.2
+FROM mariadb:10.6.8
 
 # Configure MariaDB
 ENV MYSQL_RANDOM_ROOT_PASSWORD=true
